@@ -18,7 +18,7 @@ namespace ariane
             tempo = tronc *100*60*60*10;
             Console.WriteLine($"il tempo totale è {tempo}");
             //spazio totale errato
-            Console.WriteLine("inserisci la velocità");
+            Console.WriteLine("inserisci la velocità ");
             velocità = Convert.ToDouble(Console.ReadLine());
             spazio = velocità * tempo;
             Console.WriteLine($"lo spazio totale è {spazio}");
